@@ -99,10 +99,14 @@ function MainView({ onTrackSelect }) {
     'Steve Morse',
     'Andy Timmons',
     'Mike Stern',
+    'Steve Khan',
+    'John Scofield',
+    'John Abercrombie',
+    'Bill Frisell',
   ];
 
   return (
-    <Box sx={{ padding: '2rem', color: 'white' }}>
+    <Box sx={ padding: '2rem', color: 'white' }}>
       <form onSubmit={handleSearch}>
         <Box sx={{ display: 'flex', gap: 2, marginBottom: '2rem' }}>
           <FormControl sx={{ minWidth: 120 }}>
