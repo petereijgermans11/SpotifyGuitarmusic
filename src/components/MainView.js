@@ -97,6 +97,8 @@ function MainView({ onTrackSelect }) {
     'Yngwie Malmsteen',
     'Steve Lukather',
     'Steve Morse',
+    'Andy Timmons',
+    'Mike Stern',
   ];
 
   return (
